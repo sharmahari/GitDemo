@@ -1,0 +1,7 @@
+<apex:page standardController="Contact">
+  <apex:pageBlock title="Hello, {!$User.FirstName}">
+   <b>This contact's address is <i>{!Contact.MailingStreet}, {!Contact.MailingCity}, {!Contact.MailingState}</i>.</b>
+  </apex:pageBlock>
+  <!-- End Default Content REMOVE THIS -->
+
+</apex:page>
