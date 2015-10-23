@@ -2,6 +2,7 @@
   <apex:pageBlock title="Hello, {!$User.FirstName}">
    <b>This contact's address is <i>{!Contact.MailingStreet}, {!Contact.MailingCity}, {!Contact.MailingState}</i>.</b>
    <p>This minor change for create second version</p>
+   <p>This minor change for URGENT FIX required by business</p>
   </apex:pageBlock>
   <!-- End Default Content REMOVE THIS -->
 
